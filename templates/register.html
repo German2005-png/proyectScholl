@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina-register</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="contenido">
+        <form id="formData" action="regis" method="post">
+            <h2>Register</h2>
+            <label for="username">Username</label>
+            <input class="inputstl" name="username" id="username" placeholder="Escribe tu usuario" type="text" required>
+            <label for="email">Email</label>
+            <input class="inputstl" name="email" id="email" placeholder="Escribe tu email" type="text" required>
+            <label for="password">Password</label>
+            <input class="inputstl" name="password" id="password" placeholder="Escribe tu contraseña" type="password" required>
+            <button type="submit">Registrarse</button>
+            <a class="formlink" href="/login">Ya tienes cuenta?</a>
+        </form>
+        </div>
+       <script>
+        const formName = document.getElementById("formData");
+       </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina-login</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="contenido">
+        {{username}}
+    <form action="" method="POST">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input class="inputstl" name="username" id="username" placeholder="Escribe tu usuario" type="text">
+        <label for="password">Password</label>
+        <input class="inputstl" name="password" id="password" placeholder="Escribe tu contraseña" type="password">
+        <button type="submit">Ingresar</button>
+        <a class="formlink" href="/register">Registrate</a>
+    </form>
+    </div>
+</body>
+</html>
